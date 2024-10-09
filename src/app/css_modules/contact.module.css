@@ -1,0 +1,37 @@
+.div1{
+    background-color:blueviolet;
+    margin: 20px;
+    padding:20px;
+    border:5px solid whitesmoke;
+    border-radius: 50px;
+}
+
+.h1,.p1{
+    margin:20px;
+    
+}
+
+.div1:hover{
+    background-color: white;
+    border-color:blueviolet ;
+color: blueviolet;
+transition: ease-out;
+transition-duration: 800ms;
+}
+.li1{
+    display: block;
+    font-weight:900;
+}
+.li1:hover{
+    color: blueviolet;
+    border-radius: 0%;
+    background-color: transparent;
+}
+
+.a1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.a1:hover{
+    text-decoration: underline;
+}
